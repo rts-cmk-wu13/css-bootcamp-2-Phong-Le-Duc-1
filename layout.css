@@ -1,0 +1,171 @@
+.header {
+    display: block;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.header-container__menu {
+    display: flex;
+    border-block: 1px solid grey;
+}
+
+.header-container__log button {
+    display: flex;
+
+}
+
+nav {
+
+    margin-bottom: 2rem;
+    border-block: 1px solid grey;
+    padding-block: 1rem;
+    box-shadow: 0 3px rgba(56, 55, 55, 0.568);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+nav ul li {
+    margin-inline: 1rem;
+}
+
+.baner-ad {
+
+    margin-bottom: 4rem;
+
+}
+
+
+.first {
+    grid-column: 2 /span 3;
+}
+
+.article-img {
+    grid-column: 2 /span 3;
+}
+
+
+
+
+.border-bottom {
+    border-bottom: 1px solid black;
+
+}
+
+.small-icons {
+    width: 1rem;
+    height: 1rem;
+}
+
+.portrait-img {
+    width: 3rem;
+    border-radius: 50px;
+}
+
+.section-1b {
+    grid-column: 2 /span 3;
+
+
+}
+
+.section-1b h2 {
+    text-align: center;
+}
+
+.section-1b__date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kommentar {
+    display: flex;
+}
+
+.some {
+
+    display: flex;
+    gap: 2px;
+    float: right;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+
+
+}
+
+.some-icons {
+    width: 3rem;
+    height: 2rem;
+}
+
+.section-1b__button {
+    background-color: red;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    display: flex;
+    /* width: 100%; */
+    margin-inline: auto;
+    margin-block: 1rem;
+
+
+}
+
+
+.section-1b__top-text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section-1b__bottom-text {
+
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+/*---------- section 2------------ */
+
+/* .section-2 {
+
+} */
+
+.fik-læst {
+    grid-column: 1 /span 4;
+display: flex;
+justify-content: space-between;
+margin-bottom: 1rem;
+}
+
+.fik-læst__container1{
+    display: flex;
+}
+
+.kompas{
+    width: 20px;
+}
+
+.thumb-articles {
+    display: grid;
+    grid-template-columns: subgrid;
+    background-color: aqua;
+    grid-column: 1 /span 4;
+}
+
+.thumb-articles__image {
+object-fit: cover;
+}
+
+
+.input {
+    width: 80px;
+}
