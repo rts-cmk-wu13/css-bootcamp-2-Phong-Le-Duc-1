@@ -141,16 +141,16 @@ nav ul li {
 
 .fik-læst {
     grid-column: 1 /span 4;
-display: flex;
-justify-content: space-between;
-margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
-.fik-læst__container1{
+.fik-læst__container1 {
     display: flex;
 }
 
-.kompas{
+.kompas {
     width: 20px;
 }
 
@@ -159,13 +159,50 @@ margin-bottom: 1rem;
     grid-template-columns: subgrid;
     background-color: aqua;
     grid-column: 1 /span 4;
+    margin-bottom: 3rem;
 }
 
 .thumb-articles__image {
-object-fit: cover;
+    object-fit: cover;
 }
 
 
 .input {
     width: 80px;
 }
+
+.bold {
+    font-weight: bolder;
+}
+
+.forisden-lige-nu {
+    display: flex;
+    grid-column: 2 / 5;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.lige-nu {
+    display: flex;
+}
+
+.thumb-articles__6 {
+grid-row: 3;
+    grid-column: 2 ;
+}
+.thumb-articles__7 {
+    grid-row: 3;
+        grid-column: 3 ;
+    }
+.thumb-articles__8 {
+    grid-row: 3;
+        grid-column: 4 ;
+    }
+.thumb-articles__9 {
+    grid-row: 4;
+        grid-column: 2 ;
+    }
+.thumb-articles__8 {
+    grid-row: 3;
+        grid-column: 4 ;
+    }
